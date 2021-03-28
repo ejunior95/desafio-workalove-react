@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './pages/home';
-import ChatPage from './pages/chat';
+import HomePage from '@/pages/home';
+import ChatPage from '@/pages/chat';
 
 function App() {
   return (
