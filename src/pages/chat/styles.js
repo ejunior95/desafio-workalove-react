@@ -22,6 +22,14 @@ const Container = styled.div`
         align-items: center;
         justify-content: right;
     }
+    .containerMensagemCentral {
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .containerEmojiEsq {
         width: 15%;
     }
@@ -41,6 +49,25 @@ const Container = styled.div`
     .containerConteudoMensagemDir {
         position: absolute;
         right: 12%;
+    }
+    .btnVoltar {
+        padding: 10px 30px 10px 30px;
+        border-radius: 30px;
+        outline: none;
+        border-style: none;
+        cursor: pointer;
+        font-size: 3vh;
+        text-decoration: none;
+        /* color: purple; */
+        color: #ffffff;
+        /* background-color: #ffffff; */
+        border: 1px solid #ffffff;
+        text-align:center;
+
+    }
+    .btnVoltar:hover {
+         color: purple;
+        background-color: #ffffff;
     }
 `;
 
