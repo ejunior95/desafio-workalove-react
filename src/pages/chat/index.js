@@ -24,6 +24,13 @@ function Chat() {
           <img src={UserGif} className="containerEmojiDir" />
         </div>
 
+        <div className="containerMensagemEsq">
+          <img src={EmojiGif} className="containerEmojiEsq" />
+          <div className="containerConteudoMensagemEsq">
+            Olá, eu sou Chatnilson, tudo bem?
+            Para começarmos, preciso saber seu nome.
+          </div>
+        </div>
 
     </Container>
   );
