@@ -14,6 +14,11 @@ const Container = styled.div`
         align-items: center;
         justify-content: left;
     }
+    .containerMensagemEsq.esconder,
+    .containerMensagemDir.esconder,
+    .containerMensagemCentral.esconder {
+        display: none
+    }
     .containerMensagemDir {
         width: 100%;
         padding-top: 3%;
